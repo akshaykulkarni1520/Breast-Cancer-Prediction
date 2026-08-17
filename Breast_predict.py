@@ -227,10 +227,12 @@ print("=" * 70)
 
 if prediction[0] == 0:
     print("\nPrediction: MALIGNANT")
-    print("Please consult a medical professional.")
+    print("Please consult a medical professional .")
+    print("You are at Risk.")
 else:
     print("\nPrediction: BENIGN")
     print("No malignant pattern detected by the model.")
+    print("Don't worry , You are Risk free.")
 
 # ===============================================================
 # END OF PROGRAM
